@@ -1,3 +1,5 @@
+#Requires -RunAsAdministrator
+
 iwr -useb cin.st | iex
 cinst visualstudio2019professional visualstudio2019-workload-manageddesktop netfx-4.8-devpack
 cinst resharper-ultimate-all ncrunch-vs2019
