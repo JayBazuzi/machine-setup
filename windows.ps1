@@ -32,6 +32,8 @@ $mobtimeVersion = '1.7.4'
 iwr https://github.com/GreatWebGuy/MobTime/releases/download/v$mobtimeVersion/MobTime-$mobtimeVersion.msi -O MobTime.msi
 ./MobTime.msi /qr
 
+& "${env:ProgramFiles}\Google\Chrome\Application\chrome.exe" https://app.mindmup.com/map/new
+
 # Often fails because anydesk chocolate authoring is bad
 cinst anydesk
 
