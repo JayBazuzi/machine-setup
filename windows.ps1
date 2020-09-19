@@ -11,7 +11,7 @@ cinst beyondcompare
 cinst nuget.commandline
 
 # delete annoying Windows notification sounds
-Remove-Item -Recurse HKCU:\AppEvents\Schemes
+Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
 Set-Service Audiosrv -StartupType Automatic
 
 # Show seconds in the clock so screen sharing latency is obvious to all
