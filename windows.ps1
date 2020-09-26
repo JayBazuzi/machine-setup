@@ -8,7 +8,6 @@ cinst googlechrome
 cinst git poshgit github-desktop
 cinst notepadplusplus
 cinst beyondcompare
-cinst nuget.commandline
 
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
