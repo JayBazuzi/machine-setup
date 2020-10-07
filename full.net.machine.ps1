@@ -1,6 +1,6 @@
 
 #This file
-# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+# iwr -useb https://raw.githubusercontent.com/isidore/machine-setup/main/full.net.machine.ps1 | iex
 
 
 # install mobbing-base
