@@ -1,3 +1,6 @@
+# This script
+# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-studio.ps1 | iex
+
 #Requires -RunAsAdministrator
 
 iwr -useb cin.st | iex
