@@ -10,22 +10,13 @@ The goal here is:
 
 **Note** All goals may not be met, currently
 
-TODO: 
+TODO:  
 -golang
 
 -rust
 
 -kotlin
 
--python
-
--JavaScript
-
--Java
-
--C#
-
--C++
 
 -Clojure
 
