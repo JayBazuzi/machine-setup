@@ -24,13 +24,13 @@ TODO:
 
 elm
 
-Haskell
+Haskell - needs help
 
-elixir
+elixir - needs help
 
 Prolog
 
-Julia
+Julia - needs helpÍ
 
 Ruby
 
