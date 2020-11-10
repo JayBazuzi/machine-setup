@@ -5,6 +5,6 @@
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
-choco install beyondcompare openjdk intellijidea maven
+choco install beyondcompare openjdk intellijidea-community maven
 
 Write-Host -Foreground yellow "Reboot when done"
