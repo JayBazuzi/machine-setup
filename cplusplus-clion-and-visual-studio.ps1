@@ -1,5 +1,5 @@
 # To run this script directly, run this in an elevated admin PowerShell prompt:
-# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/cplusplus-clion-and-visual-studio.ps1 | iex
+#     Invoke-WebRequest -UseBasicParsing https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/cplusplus-clion-and-visual-studio.ps1 | Invoke-Expression
 
 #Requires -RunAsAdministrator
 
