@@ -5,8 +5,9 @@
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
-cinst nodejs
-cinst yarn
-cinst webstorm
+choco install beyondcompare
+choco install nodejs
+choco install yarn
+choco install webstorm
 
 Write-Host -Foreground yellow "Reboot when done"

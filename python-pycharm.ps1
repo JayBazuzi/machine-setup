@@ -5,8 +5,10 @@
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
-choco install python
+choco install beyondcompare
+choco install python --pre 
 choco install pip
 choco install pycharm
+
 
 Write-Host -Foreground yellow "Reboot when done"
