@@ -18,6 +18,8 @@ Set-Service Audiosrv -StartupType Automatic
 
 # Show seconds in the clock so screen sharing latency is obvious to all
 Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced ShowSecondsInSystemClock 1
+# Open new explorer windows to This PC instead of Quick Access
+Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced LaunchTo 1
 
 @(
     'coenraads.bracket-pair-colorizer-2'
