@@ -32,7 +32,7 @@ Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanc
 ) | % { & "C:\Program Files\Microsoft VS Code\bin\code.cmd" --install-extension $_ }
 
 $ProgressPreference = 'SilentlyContinue'
-$mobtimeVersion = '1.7.5'
+$mobtimeVersion = '1.7.4'
 iwr https://github.com/GreatWebGuy/MobTime/releases/download/v$mobtimeVersion/MobTime-$mobtimeVersion.msi -O MobTime.msi
 ./MobTime.msi /qr
 
