@@ -9,7 +9,7 @@ cinst visualstudio2019professional visualstudio2019-workload-manageddesktop netf
 cinst resharper-ultimate-all ncrunch-vs2019
 cinst nuget.commandline
 
-cinst -y syspin --ignore-checksums # has a broken checksum
+cinst syspin --ignore-checksums # has a broken checksum
 syspin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe" "Pin to taskbar"
 
 Write-Host -Foreground yellow "Reboot when done"
