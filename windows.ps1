@@ -43,6 +43,7 @@ cinst syspin --ignore-checksums
 syspin "C:\Program Files\Google\Chrome\Application\chrome.exe" "Pin to taskbar"
 syspin "C:\Users\Administrator\AppData\Local\GitHubDesktop\GitHubDesktop.exe" "Pin to taskbar"
 syspin  "C:\Users\Administrator\AppData\Local\MobTime\MobTime.exe" "Pin to taskbar"
+syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 
 
 # Often fails because anydesk chocolate authoring is bad
