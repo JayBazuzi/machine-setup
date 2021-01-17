@@ -9,7 +9,4 @@ cinst visualstudio2019professional visualstudio2019-workload-manageddesktop netf
 cinst resharper-ultimate-all ncrunch-vs2019
 cinst nuget.commandline
 
-# Need a way to automate installing this package
-& "${env:ProgramFiles}\Google\Chrome\Application\chrome.exe" https://marketplace.visualstudio.com/items?itemName=HangjitRai.AutoSaveFile
-
 Write-Host -Foreground yellow "Reboot when done"
