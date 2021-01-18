@@ -38,13 +38,15 @@ iwr https://github.com/GreatWebGuy/MobTime/releases/download/v$mobtimeVersion/Mo
 
 & "${env:ProgramFiles}\Google\Chrome\Application\chrome.exe" https://app.mindmup.com/map/new
 
-#Pin Startbar Programs
+# Clean up the task bar
 cinst syspin --ignore-checksums
 syspin "C:\Program Files\Google\Chrome\Application\chrome.exe" "Pin to taskbar"
 syspin "C:\Users\Administrator\AppData\Local\GitHubDesktop\GitHubDesktop.exe" "Pin to taskbar"
 syspin  "C:\Users\Administrator\AppData\Local\MobTime\MobTime.exe" "Pin to taskbar"
 syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 
+cinst taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
+cuninst taskbar-winconfig
 
 # Often fails because anydesk chocolate authoring is bad
 cinst anydesk
