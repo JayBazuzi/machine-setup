@@ -1,5 +1,7 @@
 # This script
 # iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+ 
+Write-Host -Foreground yellow "Warning: You will need to Reboot when done or AnyDesk will not work properly"
 
 #Requires -RunAsAdministrator
 
