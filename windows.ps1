@@ -9,7 +9,8 @@ iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 cinst win-no-annoy
 cinst vscode
-cinst googlechrome
+cinst googlechrome choco install setdefaultbrowser
+SetDefaultBrowser.exe chrome
 cinst git poshgit github-desktop
 cinst notepadplusplus
 cinst beyondcompare
