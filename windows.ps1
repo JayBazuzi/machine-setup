@@ -49,12 +49,6 @@ syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 
 cinst taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
 cuninst taskbar-winconfig
-
- Invoke-WebRequest https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/windows_amd64/AmazonSSMAgentSetup.exe -O AmazonSSMAgentSetup.exe
- .\AmazonSSMAgentSetup.exe /S
- .\AmazonSSMAgentSetup.exe /q
- Remove-Item .\AmazonSSMAgentSetup.exe
- Restart-Service AmazonSSMAgent
  
 # Often fails because anydesk chocolate authoring is bad
 cinst anydesk
