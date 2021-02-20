@@ -5,4 +5,4 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows
 iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/golang-goland.ps1 | iex
 
 # Clone repo
-& "C:\Program Files\Git\cmd\git.exe" clone https://github.com/OrangePants-R/starter-project-go-coderetreat C:\Code\starter-project-go-coderetreat
+& "C:\Program Files\Git\cmd\git.exe" clone https://github.com/OrangePants-R/starter-project-go-coderetreat.git C:\Code\starter-project-go-coderetreat
