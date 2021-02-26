@@ -15,8 +15,8 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | Go | Automated |[Goland](dev_environments/golang.ps1)|
 | Haskell | Requires Manual Steps |[Starting Script](dev_environments/haskell.ps1)|
 | Java     | Automated | [ApprovalTests, JUnit 5](https://github.com/approvals/ApprovalTests.java.StarterProject/blob/master/install.windows.ps1) | 
-| JavaScript | Automated |[Jest-Es6 StarterProject](https://github.com/jmasonlee/JavaScript.jest.es6.StarterProject/MachineSetup.windows.ps1)|
-| JavaScript | Automated |[ApprovalTests, Mocha](https://github.com/approvals/ApprovalTests.js.StarterProject/master/install.windows.ps1)|
+| JavaScript | Automated |[Jest-Es6 StarterProject](https://github.com/jmasonlee/blob/main/JavaScript.jest.es6.StarterProject/MachineSetup.windows.ps1)|
+| JavaScript | Automated |[ApprovalTests, Mocha](https://github.com/approvals/ApprovalTests.js.StarterProject/blob/master/install.windows.ps1)|
 | Julia | Requires Manual Steps |[Starting Script](dev_environments/julia.ps1)|
 | Kotlin | Requires Manual Steps |[]()|
 |  |  |[]()|
