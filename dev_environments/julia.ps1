@@ -6,6 +6,6 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-
 
 choco install julia
 cinst intellijidea
-# intellij julia pluggin
+# intellij julia plugin
 
 
