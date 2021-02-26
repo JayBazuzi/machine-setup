@@ -18,8 +18,10 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | JavaScript | Automated |[Jest-Es6 StarterProject](https://github.com/jmasonlee/blob/main/JavaScript.jest.es6.StarterProject/MachineSetup.windows.ps1)|
 | JavaScript | Automated |[ApprovalTests, Mocha](https://github.com/approvals/ApprovalTests.js.StarterProject/blob/master/install.windows.ps1)|
 | Julia | Requires Manual Steps |[Starting Script](dev_environments/julia.ps1)|
-| Kotlin | Requires Manual Steps |[]()|
-|  |  |[]()|
-|  |  |[]()|
-|  |  |[]()|
-|  |  |[]()|
+| Kotlin | Requires Manual Steps |[Starting Script](dev_environments/kotlin.ps1)|
+| Prolog | Requires Manual Steps |[Starting Script](dev_environments/prolog.ps1)|
+| Python | Automated |[ApprovalTests, Pycharm, unittest](https://github.com/approvals/ApprovalTests.Python.StarterProject/blob/master/install.windows.ps1)|
+| ReasonML | Requires Manual Steps |[Starting Script](dev_environments/reasonml.ps1)|
+| Ruby | Automated |[Rspec](dev_enviroments/ruby.ps1)|
+| Rust | Requires Manual Steps |[Starting Script](dev_environments/rust.ps1)|
+| Swift | Requires Manual Steps |[Starting Script](dev_environments/swift.ps1)|
