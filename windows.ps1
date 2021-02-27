@@ -7,9 +7,10 @@ Write-Host -Foreground yellow "Warning: You will need to Reboot when done or Any
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
+choco feature disable --name=showDownloadProgress
 cinst win-no-annoy
 cinst vscode
-cinst googlechrome choco install setdefaultbrowser
+cinst googlechrome setdefaultbrowser
 SetDefaultBrowser.exe chrome
 cinst git poshgit github-desktop
 cinst notepadplusplus
