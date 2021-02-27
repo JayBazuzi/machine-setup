@@ -16,6 +16,9 @@ cinst git poshgit github-desktop
 cinst notepadplusplus
 cinst beyondcompare
 
+Invoke-WebRequest https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/windows_amd64/AmazonSSMAgentSetup.exe -O AmazonSSMAgentSetup.exe	
+.\AmazonSSMAgentSetup.exe /S
+
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
 Set-Service Audiosrv -StartupType Automatic
