@@ -38,6 +38,28 @@ Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanc
     'vscode-icons-team.vscode-icons'
 ) | % { & "C:\Program Files\Microsoft VS Code\bin\code.cmd" --install-extension $_ }
 
+@'
+{
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    
+    "git.autofetch": true,
+    "git.autofetchPeriod": 1,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "newUntitledFile",
+
+    "files.autoSave": "afterDelay"
+}
+'@ | Out-File -Encoding ASCII $env:APPDATA\Code\User\settings.json
+
+
 $ProgressPreference = 'SilentlyContinue'
 $mobtimeVersion = '1.7.4'
 iwr https://github.com/GreatWebGuy/MobTime/releases/download/v$mobtimeVersion/MobTime-$mobtimeVersion.msi -O MobTime.msi
