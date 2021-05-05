@@ -8,17 +8,17 @@ Write-Host -Foreground yellow "Warning: You will need to Reboot when done or Any
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 choco feature disable --name=showDownloadProgress
+
 cinst win-no-annoy
-cinst vscode
+
 cinst googlechrome setdefaultbrowser
 SetDefaultBrowser.exe chrome
+
 cinst git poshgit github-desktop
 Set-Alias github $env:LOCALAPPDATA\GitHubDesktop\bin\github.bat
+
 cinst notepadplusplus
 cinst beyondcompare
-
-Invoke-WebRequest https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/windows_amd64/AmazonSSMAgentSetup.exe -O AmazonSSMAgentSetup.exe	
-.\AmazonSSMAgentSetup.exe /S
 
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
@@ -29,6 +29,7 @@ Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanc
 # Open new explorer windows to This PC instead of Quick Access
 Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced LaunchTo 1
 
+cinst vscode
 @(
     'coenraads.bracket-pair-colorizer-2'
     'wmaurer.change-case'
@@ -78,7 +79,7 @@ syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 cinst taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
 cuninst taskbar-winconfig
  
-# Often fails because anydesk chocolate authoring is bad
-cinst anydesk
+# Often fails because anydesk chocolatey authoring is bad
+cinst anydesk --ignore-checksums
 syspin "C:\ProgramData\chocolatey\bin\AnyDesk.exe" "Pin to taskbar"
 
