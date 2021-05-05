@@ -13,6 +13,7 @@ cinst vscode
 cinst googlechrome setdefaultbrowser
 SetDefaultBrowser.exe chrome
 cinst git poshgit github-desktop
+Set-Alias github $env:LOCALAPPDATA\GitHubDesktop\bin\github.bat
 cinst notepadplusplus
 cinst beyondcompare
 
