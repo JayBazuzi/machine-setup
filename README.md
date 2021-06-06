@@ -25,3 +25,4 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | Ruby | Automated |[Rspec](dev_enviroments/ruby.ps1)|
 | Rust | Requires Manual Steps |[Starting Script](dev_environments/rust.ps1)|
 | Swift | Requires Manual Steps |[Starting Script](dev_environments/swift.ps1)|
+| Typescript | Requires Manual Steps | [Starting Script](dev_environments/typescript.ps1)|
