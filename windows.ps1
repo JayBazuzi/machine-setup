@@ -81,5 +81,5 @@ cuninst taskbar-winconfig
  
 # Often fails because anydesk chocolatey authoring is bad
 cinst anydesk --ignore-checksums
-syspin "C:\ProgramData\chocolatey\bin\AnyDesk.exe" "Pin to taskbar"
+syspin "C:\ProgramData\chocolatey\lib\anydesk.portable\tools\AnyDesk.exe" "Pin to taskbar"
 
