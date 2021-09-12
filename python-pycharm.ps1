@@ -6,7 +6,7 @@
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 choco install beyondcompare
-choco install python --pre 
+choco install python --pre
 choco install pip
 choco install pycharm
 

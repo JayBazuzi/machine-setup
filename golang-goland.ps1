@@ -5,7 +5,7 @@
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
-cinst golang 
+cinst golang
 cinst goland
 
 Write-Host -Foreground yellow "Reboot when done"

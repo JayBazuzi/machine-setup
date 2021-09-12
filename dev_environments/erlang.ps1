@@ -5,7 +5,7 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows
 iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-studio.ps1 | iex
 
 choco install erlang
-choco install rebar3 
+choco install rebar3
 cinst intellijidea
 
 # intellij erlang
