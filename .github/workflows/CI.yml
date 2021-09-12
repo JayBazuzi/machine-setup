@@ -1,0 +1,14 @@
+on: [push, pull_request]
+jobs:
+  PSScriptAnalyzer:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: PSScriptAnalyzer
+      uses: devblackops/github-action-psscriptanalyzer@master
+      with:
+        sendComment: true
+        failOnErrors: true
+        failOnWarnings: true
+        failOnInfos: true
+        repoToken: ${{ secrets.GITHUB_TOKEN }}

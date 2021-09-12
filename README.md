@@ -1,3 +1,5 @@
+[![Build and Test](https://github.com/JayBazuzi/machine-setup/actions/workflows/CI.yml/badge.svg)](https://github.com/JayBazuzi/machine-setup/actions/workflows/CI.yml)
+
 # machine-setup
 Set up a new machine as a development environment for your project.
 
