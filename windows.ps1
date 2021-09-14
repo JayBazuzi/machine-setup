@@ -1,6 +1,6 @@
 # This script
 # iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
- 
+
 Write-Host -Foreground yellow "Warning: You will need to Reboot when done or AnyDesk will not work properly"
 
 #Requires -RunAsAdministrator
@@ -44,11 +44,11 @@ cinst vscode
 {
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.renderSideBySide": false,
-    
+
     "editor.minimap.enabled": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
-    
+
     "git.autofetch": true,
     "git.autofetchPeriod": 1,
     "git.enableSmartCommit": true,
@@ -78,7 +78,7 @@ syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 
 cinst taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
 cuninst taskbar-winconfig
- 
+
 # Often fails because anydesk chocolatey authoring is bad
 cinst anydesk --ignore-checksums
 syspin "C:\ProgramData\chocolatey\lib\anydesk.portable\tools\AnyDesk.exe" "Pin to taskbar"

@@ -6,7 +6,7 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-
 
 choco install nodejs
 # reload powershell to get environment running
-npm install --global elm-test@latest-0.19.1 
+npm install --global elm-test@latest-0.19.1
 npm install --global elm-format@latest-0.19.1
 cinst intellijidea
 

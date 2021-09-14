@@ -1,18 +1,18 @@
 # Dev Environments
 
-The goal here is: 
+The goal here is:
 * To have a single line that will instantiate your machine with:
     * An IDE
-    * A starter project 
+    * A starter project
     * A test framework
-    * A passing/failing test 
+    * A passing/failing test
     * The ability to run the test from the IDE
 
 **Note** All goals may not be met, currently
 
 # Process
 
-1. Many of these scripts were created with the help of Exercism  
+1. Many of these scripts were created with the help of Exercism 
    * Sign up for the track on [Exercism](https://exercism.io/my/tracks) and Practice Mode
    * Select "Hello World" and click the "Download" button on the right of the screen.
    * Paste that into your command line

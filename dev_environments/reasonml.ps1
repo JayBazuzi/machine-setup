@@ -6,7 +6,7 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-
 
 choco install nodejs
 # reload powershell to get environment running
-npm install -g bs-platform 
+npm install -g bs-platform
 cinst intellijidea
 
 # intellij reasonML
