@@ -7,7 +7,7 @@ iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-
 choco install openjdk
 choco install gradle
 # reload powershell to get environment running
-cinst intellijidea
+choco install choco install intellijidea-ultimate
 
 # Run tests via the command line (you may have to reload the terminal after installation before trying this):
 # cargo test
