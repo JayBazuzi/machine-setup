@@ -5,6 +5,11 @@ Write-Host -Foreground yellow "Warning: You will need to Reboot when done or Any
 
 #Requires -RunAsAdministrator
 
+Install-Module -Force PSWindowsUpdate
+Get-WindowsUpdate
+Add-WUServiceManager -MicrosoftUpdate
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 choco feature disable --name=showDownloadProgress
