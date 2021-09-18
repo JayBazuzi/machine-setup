@@ -14,6 +14,8 @@ cinst win-no-annoy
 cinst googlechrome setdefaultbrowser
 SetDefaultBrowser.exe chrome
 
+cinst powershell-core
+
 cinst git poshgit github-desktop
 Set-Alias github $env:LOCALAPPDATA\GitHubDesktop\bin\github.bat
 
