@@ -7,6 +7,7 @@ iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 cinst visualstudio2019professional visualstudio2019-workload-manageddesktop netfx-4.8-devpack
 cinst resharper-ultimate-all ncrunch-vs2019
+cinst dotnetcore
 
 cinst nuget.commandline
 nuget.exe sources add -Name nuget.org -Source https://api.nuget.org/v3/index.json
