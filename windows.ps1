@@ -5,9 +5,9 @@ Write-Host -Foreground yellow "Warning: You will need to Reboot when done or Any
 
 #Requires -RunAsAdministrator
 
+Install-PackageProvider -Force NuGet
 Install-Module -Force PSWindowsUpdate
 Get-WindowsUpdate
-Add-WUServiceManager -MicrosoftUpdate
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
 
 iwr -useb cin.st | iex
