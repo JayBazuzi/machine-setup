@@ -5,7 +5,7 @@ Write-Host -Foreground yellow "Warning: You will need to Reboot when done or Any
 
 #Requires -RunAsAdministrator
 
-Install-PackageProvider -Force NuGet
+Install-PackageProvider -Force -Name NuGet
 Install-Module -Force PSWindowsUpdate
 Get-WindowsUpdate
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
