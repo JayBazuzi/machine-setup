@@ -38,7 +38,6 @@ Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanc
 
 cinst vscode
 @(
-    'coenraads.bracket-pair-colorizer-2'
     'wmaurer.change-case'
     'streetsidesoftware.code-spell-checker'
     'ryu1kn.partial-diff'
@@ -55,6 +54,7 @@ cinst vscode
     "editor.minimap.enabled": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
+    "editor.bracketPairColorization.enabled": true,
 
     "git.autofetch": true,
     "git.autofetchPeriod": 1,
@@ -64,10 +64,10 @@ cinst vscode
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "newUntitledFile",
 
+    "files.autoSaveDelay": 100,
     "files.autoSave": "afterDelay"
 }
 '@ | Out-File -Encoding ASCII $env:APPDATA\Code\User\settings.json
-
 
 $ProgressPreference = 'SilentlyContinue'
 $mobtimeVersion = '1.7.4'
