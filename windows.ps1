@@ -8,7 +8,7 @@ Write-Host -Foreground yellow "Warning: You will need to Reboot when done or Any
 Install-PackageProvider -Force -Name NuGet
 Install-Module -Force PSWindowsUpdate
 Get-WindowsUpdate
-Install-WindowsUpdate -MicrosoftUpdate -AcceptAll
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -IgnoreReboot
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
