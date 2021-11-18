@@ -4,6 +4,7 @@
 Write-Host -Foreground yellow "Warning: You will need to Reboot when done or AnyDesk will not work properly"
 
 #Requires -RunAsAdministrator
+reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
 
 Install-PackageProvider -Force -Name NuGet
 Install-Module -Force PSWindowsUpdate
