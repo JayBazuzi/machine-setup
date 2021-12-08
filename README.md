@@ -19,7 +19,7 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | Java     | Automated | [ApprovalTests, JUnit 5](https://github.com/approvals/ApprovalTests.java.StarterProject/blob/master/install.windows.ps1) |
 | JavaScript | Automated |[Jest-Es6 StarterProject](https://github.com/jmasonlee/JavaScript.jest.es6.StarterProject/blob/main/MachineSetup.windows.ps1)|
 | JavaScript | Automated |[ApprovalTests, Mocha](https://github.com/approvals/ApprovalTests.js.StarterProject/blob/master/install.windows.ps1)|
-| Julia | Requires Manual Steps |[Starting Script](dev_environments/julia.ps1)|
+| Julia | Automated |[Julia.starterproject](https://github.com/LearnWithLlew/julia.starterproject)|
 | Kotlin | Requires Manual Steps |[Starting Script](dev_environments/kotlin.ps1)|
 | Prolog | Requires Manual Steps |[Starting Script](dev_environments/prolog.ps1)|
 | Python | Automated |[ApprovalTests, Pycharm, unittest](https://github.com/approvals/ApprovalTests.Python.StarterProject/blob/master/install.windows.ps1)|
