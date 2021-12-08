@@ -11,9 +11,9 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | -------- | ------ | ---- |
 | C++     | Automated | [ApprovalTests, Catch2](https://github.com/approvals/ApprovalTests.cpp.StarterProject/blob/master/install.windows.ps1) |
 | C#    | Automated | [ApprovalTests, MsTest](https://github.com/approvals/ApprovalTests.Net.StarterProject/blob/master/install.windows.ps1) |
-| elixir    | Environment, No Code | [Environment setup](elixir-intellij.ps1) |
+| elixir    | Automated | [exlixir.starterproject](https://github.com/LearnWithLlew/elixir.starterproject) |
 | Elm | Requires Manual Steps |[Starting Script](dev_environments/elm.ps1)|
-| Erlang | Requires Manual Steps |[Starting Script](dev_environments/erlang.ps1)|
+| Erlang | Automated |[erlang.starterproject](https://github.com/LearnWithLlew/erlang.starterproject)|
 | Go | Automated |[Goland](dev_environments/golang.ps1)|
 | Haskell | Automated |[Command Line](https://github.com/LearnWithLlew/haskell.starterproject)|
 | Java     | Automated | [ApprovalTests, JUnit 5](https://github.com/approvals/ApprovalTests.java.StarterProject/blob/master/install.windows.ps1) |
