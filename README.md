@@ -21,7 +21,7 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | JavaScript | Automated |[ApprovalTests, Mocha](https://github.com/approvals/ApprovalTests.js.StarterProject/blob/master/install.windows.ps1)|
 | Julia | Automated |[Julia.starterproject](https://github.com/LearnWithLlew/julia.starterproject)|
 | Kotlin | Requires Manual Steps |[Starting Script](dev_environments/kotlin.ps1)|
-| Prolog | Requires Manual Steps |[Starting Script](dev_environments/prolog.ps1)|
+| Prolog | Automate |[prolog.starterproject](https://github.com/LearnWithLlew/prolog.starterproject)|
 | Python | Automated |[ApprovalTests, Pycharm, unittest](https://github.com/approvals/ApprovalTests.Python.StarterProject/blob/master/install.windows.ps1)|
 | ReasonML | Requires Manual Steps |[Starting Script](dev_environments/reasonml.ps1)|
 | Ruby | Automated |[Rspec](dev_enviroments/ruby.ps1)|
