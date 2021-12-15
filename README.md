@@ -23,7 +23,7 @@ For an example of how to use this, see: https://gist.github.com/JayBazuzi/296db9
 | Kotlin | Requires Manual Steps |[Starting Script](dev_environments/kotlin.ps1)|
 | Prolog | Automate |[prolog.starterproject](https://github.com/LearnWithLlew/prolog.starterproject)|
 | Python | Automated |[ApprovalTests, Pycharm, unittest](https://github.com/approvals/ApprovalTests.Python.StarterProject/blob/master/install.windows.ps1)|
-| ReasonML | Requires Manual Steps |[Starting Script](dev_environments/reasonml.ps1)|
+| ReasonML | Automated |[ReasonMl.starterproject](https://github.com/LearnWithLlew/reasonml.starterproject)|
 | Ruby | Automated |[Rspec](dev_enviroments/ruby.ps1)|
 | Rust | Requires Manual Steps |[Starting Script](dev_environments/rust.ps1)|
 | Swift | Requires Manual Steps |[Starting Script](dev_environments/swift.ps1)|
