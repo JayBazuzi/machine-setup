@@ -5,11 +5,12 @@
 
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
+
 cinst netfx-4.8-devpack
-cinst visualstudio2019professional
-cinst visualstudio2019-workload-manageddesktop
+cinst visualstudio2022enterprise
+cinst visualstudio2022-workload-manageddesktop
 cinst resharper-ultimate-all
-cinst ncrunch-vs2019
+cinst ncrunch-vs2022
 cinst dotnetcore
 
 cinst nuget.commandline
