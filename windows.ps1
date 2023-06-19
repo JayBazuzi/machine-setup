@@ -15,18 +15,18 @@ iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 choco feature disable --name=showDownloadProgress
 
-cinst win-no-annoy
+choco install win-no-annoy
 
-cinst googlechrome setdefaultbrowser
+choco install googlechrome setdefaultbrowser
 SetDefaultBrowser.exe chrome
 
-cinst powershell-core
+choco install powershell-core
 
-cinst git poshgit github-desktop
+choco install git poshgit github-desktop
 Set-Alias github $env:LOCALAPPDATA\GitHubDesktop\bin\github.bat
 
-cinst notepadplusplus
-cinst beyondcompare
+choco install notepadplusplus
+choco install beyondcompare
 
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
@@ -37,7 +37,7 @@ Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanc
 # Open new explorer windows to This PC instead of Quick Access
 Set-ItemProperty HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced LaunchTo 1
 
-cinst vscode
+choco install vscode
 @(
     'wmaurer.change-case'
     'streetsidesoftware.code-spell-checker'
@@ -84,10 +84,10 @@ syspin "C:\Users\Administrator\AppData\Local\GitHubDesktop\GitHubDesktop.exe" "P
 syspin  "C:\Users\Administrator\AppData\Local\MobTime\MobTime.exe" "Pin to taskbar"
 syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 
-cinst taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
-cuninst taskbar-winconfig
+choco install taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
+choco uninstall taskbar-winconfig
 
 # Often fails because anydesk chocolatey authoring is bad
-cinst anydesk --ignore-checksums
+choco install anydesk --ignore-checksums
 syspin "C:\ProgramData\chocolatey\lib\anydesk.portable\tools\AnyDesk.exe" "Pin to taskbar"
 
