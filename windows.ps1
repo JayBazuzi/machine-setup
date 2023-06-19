@@ -78,7 +78,7 @@ iwr https://github.com/GreatWebGuy/MobTime/releases/download/v$mobtimeVersion/Mo
 & "${env:ProgramFiles}\Google\Chrome\Application\chrome.exe" https://app.mindmup.com/map/new
 
 # Clean up the task bar
-cinst syspin --ignore-checksums
+choco install syspin --ignore-checksums
 syspin "C:\Program Files\Google\Chrome\Application\chrome.exe" "Pin to taskbar"
 syspin "C:\Users\Administrator\AppData\Local\GitHubDesktop\GitHubDesktop.exe" "Pin to taskbar"
 syspin  "C:\Users\Administrator\AppData\Local\MobTime\MobTime.exe" "Pin to taskbar"
