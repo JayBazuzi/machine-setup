@@ -88,5 +88,5 @@ choco install taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKV
 choco uninstall taskbar-winconfig
 
 choco install teamviewer
-# syspin "C:\ProgramData\chocolatey\lib\anydesk.portable\tools\AnyDesk.exe" "Pin to taskbar"
+syspin "C:\Program Files\TeamViewer\TeamViewer.exe" "Pin to taskbar"
 
