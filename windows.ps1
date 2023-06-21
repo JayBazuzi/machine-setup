@@ -87,7 +87,6 @@ syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 choco install taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
 choco uninstall taskbar-winconfig
 
-# Often fails because anydesk chocolatey authoring is bad
-choco install anydesk --ignore-checksums
-syspin "C:\ProgramData\chocolatey\lib\anydesk.portable\tools\AnyDesk.exe" "Pin to taskbar"
+choco install teamviewer
+# syspin "C:\ProgramData\chocolatey\lib\anydesk.portable\tools\AnyDesk.exe" "Pin to taskbar"
 
