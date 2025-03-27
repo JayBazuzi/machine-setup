@@ -87,6 +87,3 @@ syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 choco install taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"
 choco uninstall taskbar-winconfig
 
-choco install teamviewer
-syspin "C:\Program Files\TeamViewer\TeamViewer.exe" "Pin to taskbar"
-
