@@ -15,7 +15,7 @@ SetDefaultBrowser.exe chrome
 
 Start-Process -Verb RunAs -Wait choco 'install powershell-core'
 
-Start-Process -Verb RunAs -Wait choco 'install git poshgit github-desktop'
+Start-Process -Verb RunAs -Wait choco 'install git gh poshgit github-desktop'
 Set-Alias github $env:LOCALAPPDATA\GitHubDesktop\bin\github.bat
 
 Start-Process -Verb RunAs -Wait choco 'install beyondcompare'
