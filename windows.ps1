@@ -1,5 +1,7 @@
-# This script
-# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+# To run this script, in a **non-elevated** PowerShell prompt run:
+#   PS> iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+# On some machines you may need to enable script execution in an **elevated** prompt:
+#   PS> Set-ExecutionPolicy RemoteSigned
 
 Start-Process -Verb RunAs -Wait powershell 'Invoke-WebRequest -UseBasicParsing -Uri "https://community.chocolatey.org/install.ps1" | Invoke-Expression'
 Import-Module "C:\ProgramData\chocolatey\helpers\chocolateyProfile.psm1"; refreshenv
