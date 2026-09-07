@@ -79,5 +79,5 @@ syspin "C:\Users\Administrator\AppData\Local\GitHubDesktop\GitHubDesktop.exe" "P
 syspin  "C:\Users\Administrator\AppData\Local\MobTime\MobTime.exe" "Pin to taskbar"
 syspin "C:\Program Files\internet explorer\iexplore.exe" "Unpin from taskbar"
 
-Start-Process -Verb RunAs -Wait choco 'install taskbar-winconfig --params "'/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no'"'
+Start-Process -Verb RunAs -Wait choco install taskbar-winconfig --params "/CORTANA:no /INK:no /PEOPLE:no /TASKVIEW:no /KEYBOARD:no"'
 Start-Process -Verb RunAs -Wait choco 'uninstall taskbar-winconfig'
